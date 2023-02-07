@@ -63,6 +63,18 @@ class ViewController: UIViewController {
         print("Площа = \(square)")
         print("Периметр = \(perimeter)")
 
+        
+        let sum = 300.00
+        let years = 5.0
+        let percent = 2.0 / 100
+        
+        var result = sum * percent + sum
+        result = result + result * percent
+        result = result + result * percent
+        result = result + result * percent
+        result = result + result * percent
+
+        print(result)
         }
     }
 
